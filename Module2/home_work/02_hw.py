@@ -8,3 +8,11 @@
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
 # TODO: your code here
+
+n = int(input("1 сторона: "))
+m = int(input("2 сторона: "))
+k = int(input("сколько отломить: "))
+if k==n or k==m:
+    print("Yes")
+else:
+    print("No")
