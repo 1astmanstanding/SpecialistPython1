@@ -31,3 +31,13 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+
+import math
+a = float(input('цена: '))
+x = a*21
+z = a
+c = 1
+while a<=x and c<=21:
+    print(c, (round(a, 2)),'Rub.')
+    c+=1
+    a+=z
