@@ -2,3 +2,7 @@
 # Вывести на экран сумму всех элементов.
 
 # TODO: your code here
+
+list = [1,2,3]
+list = sum(list)
+print(list)
